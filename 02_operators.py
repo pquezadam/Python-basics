@@ -14,3 +14,6 @@ print("Hola" + "Python")
 print(" Hola " + str(5))
 print(" Hola " * 5)
 print(" Hola " *(2 ** 3))
+
+my_float = 2.5 * 2
+print("hola " * int(my_float))
