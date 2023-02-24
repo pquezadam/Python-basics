@@ -17,3 +17,17 @@ print(" Hola " *(2 ** 3))
 
 my_float = 2.5 * 2
 print("hola " * int(my_float))
+
+
+print("Hola" < "Python")
+print("aaaa" >= "abaa") #Ordenación alfabética por ASCII
+print(len("aaaa") >= len("aaaa")) #Cuenta los caracteres dentro de las comillas
+print("Hola" <= "Python")
+print("Hola" == "Python")
+print("Hola" != "Python")
+
+### Operadores lógicos
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python" and 4 == 4)
+print(not(3 > 4))
